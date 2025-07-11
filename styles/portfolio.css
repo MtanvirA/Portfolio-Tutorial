@@ -220,3 +220,26 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer section */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea
+{
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+
+}
