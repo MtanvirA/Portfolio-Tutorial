@@ -178,7 +178,7 @@ main section {
 /* resume */
 .resume-container {
     display: flex;
-    gap: 25px;
+    gap: 50px;
 }
 
 .experience-details {
@@ -203,6 +203,7 @@ main section {
     font-size: 30px;
     font-weight: 800;
     color: #474747;
+    text-align: center;
 }
 .section-title{
     margin-bottom: 113px;
@@ -214,6 +215,19 @@ main section {
 .resume hr{
     margin: 20px;
 }
+.resume-column1, .resume-column2{
+    width: 50%;
+    display: block;
+
+    margin-bottom: 30px;
+}
+.experience{
+    padding: 10px 10px;
+    background-color: lemonchiffon;
+    border-radius: 20px;
+    box-shadow: 10px 10px violet;
+}
+
 
 /* Download button */
 .second-button{
